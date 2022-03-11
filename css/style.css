@@ -1,0 +1,26 @@
+*{padding: 0;margin: 0;}
+
+.main{padding: 10px;}
+.container{max-width: 1200px;margin:0 auto;}
+#slogan{text-align: center;}
+#slogan p { padding: 10px; font-size: 2em; }
+#contact{display: flex;justify-content: center;}
+#contact ul{display: flex;list-style: none;width: 100%;}
+#contact ul li{width: 33.33%; text-align: center;padding: 15px 0}
+#word{display: flex;justify-content: center;}
+
+#word ul {
+    display: flex;
+    list-style: none;
+}
+#word ul li {
+    width: 150px;
+    height: 200px;
+    box-shadow: 0 1px 1px 1px rgb(0 0 0 / 20%);
+    font-size: 8em;
+    margin: 0 0 0 2px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
